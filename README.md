@@ -2,7 +2,7 @@
 # (CVPR 2025)Tightening Robustness Verification of MaxPool-based Neural Networks via Minimizing the Over-Approximation Zone
 ## Setup Instructions
 
-We propose Ti-Lin that, in certain cases, outperforms the 2024 MaxLin(https://github.com/xiaoyuanpigo/maxlin) approach. Based on this, we introduce Hybrid-Lin, which combines the strengths of both  MaxLin and  Ti-Lin. Experimental results demonstrate that Hybrid-Lin generally performs better than MaxLin. Therefore, for more precise robustness verification results, we recommend using Hybrid-Lin, which we have implemented in Alpha-Beta-CROWN (https://github.com/Verified-Intelligence/alpha-beta-CROWN).
+We propose Ti-Lin, a neuron-wise tightest linear relaxation technique for MaxPool. Ti-Lin, in certain cases, outperforms  MaxLin(https://github.com/xiaoyuanpigo/maxlin), which is a partiall block-wise tightest technique. Based on this, we introduce Hybrid-Lin, which combines the strengths of both  MaxLin and  Ti-Lin. Experimental results demonstrate that Hybrid-Lin generally performs better than MaxLin. Therefore, for more precise robustness verification results, we recommend using Hybrid-Lin, which we have implemented in Alpha-Beta-CROWN (https://github.com/Verified-Intelligence/alpha-beta-CROWN).
 
 ## Run Certification
 
